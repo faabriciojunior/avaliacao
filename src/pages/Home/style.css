@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-size: 1.8vh;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.app {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.select {
+    border-color: white;
+    height: 100%;
+    align-items: center;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(155, 155, 155);
+} 
+.btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#alert-dialog-description {
+    text-align: center;
+    font-size: 2.5vh;
+}
+#alert-dialog-title {
+    text-align: center;
+    font-size: 4vh;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    width: 100%;
+}
+.btn-edit {
+    margin-bottom: 30px;
+}
+.all-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.btn-edit2 {
+    margin-bottom: 30px;
+}
+.save {
+    background-color: aqua;
+    margin-right: 10px;
+}
+.dont-save {
+    background-color: rgba(255, 0, 0, 0.445);
+    margin-right: 10px;
+}
+.cancel {
+    background-color: rgb(170, 170, 170);
+    margin-right: 10px;
+}

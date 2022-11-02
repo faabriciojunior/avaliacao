@@ -1,0 +1,21 @@
+.card-container {
+    width: 100%;
+    margin-top: 10%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+.btn-link {
+    margin: 20px;
+}
+.search-link {
+    margin-top: 10px;
+}
+.btn-add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
